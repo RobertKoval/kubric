@@ -38,7 +38,7 @@ if args.nightly:
   VERSION = f"{now.year}.{now.month}.{now.day}"
   NAME="kubric-nightly"
 if args.secondly or VERSION is None:  #< contingency plan
-  VERSION = f"{now.year}.{now.month}.{now.day}.{now.hour}.{now.minute}.{now.second}"
+  VERSION = f"{now.year}.{now.month}.{now.day}.{now.hour}"
   NAME="kubric-secondly"
 try:
   version.Version(VERSION)  #< assert if regex fails
