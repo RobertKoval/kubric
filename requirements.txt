@@ -1,19 +1,16 @@
-apache-beam[gcp]
 bidict
-# bpy   (the Blender python module. Cannot be pip-installed)
-dataclasses
-etils[epath_no_tf]
-cloudml-hypertune
-google-cloud-storage
+absl-py
+bpy
+etils
 imageio
 munch
 numpy>=1.17
+importlib-resources
 pandas
 pypng
 pyquaternion
 python-Levenshtein
 scikit-learn
 tensorflow
-tensorflow-datasets>=4.1.0
 traitlets
 trimesh
